@@ -17,3 +17,25 @@ The function `equivalentKeypresses(strArr)` accepts a list of two strings, where
 ```python
 print(equivalentKeypresses(["a,b,c,d", "a,b,c,d,-B,d"]))  # Output: "true"
 print(equivalentKeypresses(["c,a,r,d", "c,a,-B,r,d"]))    # Output: "false"
+
+
+
+
+# Third Greatest Word
+
+This Python script defines a function that retrieves the third largest word from an array of strings, considering their lengths. If multiple words share the same length, the function prioritizes the last occurrence of those words in the original array.
+
+## Functionality
+
+The function `ThirdGreatest(strArr)` accepts a list of strings and sorts them based on their lengths to determine the third largest word.
+
+### Key Features
+- Sorts words by length in descending order.
+- Handles cases where words have the same length by using their original index.
+- Returns the third largest word from the array.
+
+## Example Usage
+
+```python
+print(ThirdGreatest(["hello", "world", "before", "all"]))  # Output: "world"
+print(ThirdGreatest(["hello", "world", "after", "all"]))   # Output: "after"
