@@ -12,11 +12,12 @@ The function `equivalentKeypresses(strArr)` accepts a list of two strings, where
 - Compares the resulting sequences after processing all keypresses.
 - Returns "true" if both sequences are equivalent, otherwise returns "false".
 
-<!-- ## Example Usage
+## Example Usage
 
-```python
-print(equivalentKeypresses(["a,b,c,d", "a,b,c,d,-B,d"]))
-print(equivalentKeypresses(["c,a,r,d", "c,a,-B,r,d"]))     -->
+
+- print(equivalentKeypresses(["a,b,c,d", "a,b,c,d,-B,d"]))
+- print(equivalentKeypresses(["c,a,r,d", "c,a,-B,r,d"]))   
+ 
 
 #   Third Greatest Word
 
@@ -33,6 +34,6 @@ The function `ThirdGreatest(strArr)` accepts a list of strings and sorts them ba
 
 ## Example Usage
 
-<!-- ```python
-print(ThirdGreatest(["hello", "world", "before", "all"]))  # Output: "world"
-print(ThirdGreatest(["hello", "world", "after", "all"]))   # Output: "after" -->
+
+- print(ThirdGreatest(["hello", "world", "before", "all"]))  # Output: "world"
+- print(ThirdGreatest(["hello", "world", "after", "all"]))   # Output: "after"
